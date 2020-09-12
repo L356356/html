@@ -1,0 +1,10 @@
+Pasar de un archivo a otro. Ctrl + P, después colocar el nombre del archivo.
+Buscar estilos en archivo. Ctrl + R, después colocar el nombre del estilo.
+Seleccionar palabras repetidas. Ctrl + D.
+Duplicar Texto. Ctrl + Shift + D.
+Expandir selección. Ctrl + Shift + Espacio. 
+Modificar lista. Ctrl + Shift + L.
+Acomodar lista. F9 en Windows y F5 en MacOS.
+Mover bloques de código. Ctrl + Shift + Arriba/Abajo. 
+Encontrar llave de apertura o cierre. Ctrl + M.
+Pantalla completa. Shift + F11 en Windows y Cmd + Ctrl + Shift + F en MacOS.
