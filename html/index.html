@@ -3,17 +3,175 @@
         <title>Pagina con css, html, php y scrip</title>
         <meta charset="utf-8">
         <link rel="stylesheet" type="text/css" href="css/estilos.css">
+        <script type="text/javascript" src="js/javasript.js"></script>
 
     </head>
     <body>
-    	<div id="boton">
-
-    		<p>hola soy una cosa</p>
-
-    	</div>	
-
-        <h1>Hola mundo</h1>
-        <p>Hola munndo web</p>
-
+        <!-- Titulos -->
+        <h1 id="Titulo">Módulo contenido | Texto</h1>
+        <h2 id="subtitulo">Subtitulo 1</h2>
+        <h3>Subtitulo 1</h3>
+        <h4>Subtitulo 1</h4>
+        <h5>Subtitulo 1</h5>
+        <h6>Subtitulo 1</h6>
+        <hr>
+     
+        <!-- Cuerpo del texto -->
+        <p>Este elemento representa un párrafo. Por defecto, los navegadores le asignan un margen en la parte superior para separar un párrafo de otro.</p>
+        <pre>Este elemento representa un texto con formato predefinido, como código de programación o un
+         poema que requiere que los espacios asignados a cada 
+        carácter y los saltos de línea se muestren como se han declarado originalmente.</pre>
+        <span class="palabras personlisadas">Este elemento puede contener un párrafo, una frase o una palabra. No aplica ningún estilo al texto pero se usa para asignar estilos personalizados, como veremos en próximos capítulos.</span>
+        <hr>
+        <br>
+        <!-- Significado especial a palabras individuales o frases completas. -->
+        <em>Este elemento se usa para indicar énfasis. El texto se muestra por defecto con letra cursiva.</em>
+        <br><br>
+        <strong>Este elemento es utiliza para indicar importancia. El texto se muestra por defecto en negrita.</strong>
+        <br><br>
+        <i>Este elemento representa una voz alternativa o un estado de humor, como un pensamiento, un término técnico, etc. El texto se muestra por defecto con letra cursiva.</i>
+        <br><br>
+        <u>Este elemento representa texto no articulado. Por defecto se muestra subrayado.</u>
+        <br><br>
+        <b>Este elemento se usa para indicar importancia. Debería ser implementado solo cuando ningún otro elemento es apropiado para la situación. El texto se muestra por defecto en negrita.</b>
+        <br><hr>
+        <!-- Elementos para insertar textos que tienen un propósito claramente definido. -->
+        <mark>Este elemento resalta texto que es relevante en las circunstancias actuales (por ejemplo, términos que busca el usuario).</mark>
+        <br><br>
+        <small>Este elemento representa letra pequeña, como declaraciones legales, descargos, etc.</small>
+        <br><br>
+        <cite>Este elemento representa el autor o título de una obra, como un libro, una película, etc.</cite>
+        <br><br>
+        <address>Este elemento representa información de contacto. Se implementa con frecuencia dentro de los pies de página para definir la dirección de la empresa o el sitio web.</address>
+        <br><br>
+        <p>El concierto empieza a las <time>20:00</time>.</p>
+        <pre>
+            <code>
+                 #include main() { for(;;) { printf ("Hello World!\n"); } } 
+            </code>
+        </pre>
+        <data value="32">Treinta y Dos</data> <p>Este elemento representa datos genéricos.</p>
+        <a href="https://www.youtube.com/xd=" target="blank">google</a>
+        <style>
+            .contenedor{
+                width: 300px;
+            }
+        </style>
+        <div class="contenedor">
+            <img width="100%" src="https://bolavip.com/__export/1579385799537/sites/bolavip/img/2020/01/18/scorpionmovie_crop1579385799026.jpg_1693159006.jpg" alt="Portada del curso de HTML, CSS y JS">
+        </div>
+     
+        <img width="300px" height="300px" src="https://bolavip.com/__export/1579385799537/sites/bolavip/img/2020/01/18/scorpionmovie_crop1579385799026.jpg_1693159006.jpg" alt="Portada del curso de HTML, CSS y JS">
+         
+        <figure>
+            <img width="300px" height="300px" src="https://bolavip.com/__export/1579385799537/sites/bolavip/img/2020/01/18/scorpionmovie_crop1579385799026.jpg_1693159006.jpg" alt="Portada del curso de HTML, CSS y JS">
+            <figcaption>Portada del curso de HTML, CSS y JS</figcaption> 
+        </figure>
+        <aside>
+            <h2>Lista de cursos Azul School</h2>
+            <ul>
+                <li>Curso de Python</li>
+                <li>Curso de C++</li>
+                <li>Curso de SQL</li>
+                <li>Curso de React</li>
+                <li>Curso de Node.js</li>
+            </ul>
+        </aside>
+        <hr>
+        <aside>
+            <h2>Lecciones del curso de HTML, CSS yJS</h2>
+            <ul> 
+                <ol type="A">
+                    <li>Curso de Python</li>
+                    <li>Curso de C++</li>
+                    <li>Curso de SQL</li>
+                    <li>Curso de React</li>
+                    <li>Curso de Node.js</li>
+                </ol>
+            </ul>
+        </aside>
+        <aside>
+            <h2>Lecciones del curso de HTML, CSS yJS</h2>
+            <ul> 
+                <ol type="1" reversed>
+                    <li>Curso de Python</li>
+                    <li>Curso de C++</li>
+                    <li>Curso de SQL</li>
+                    <li>Curso de React</li>
+                    <li>Curso de Node.js</li>
+                </ol>
+            </ul>
+        </aside>
+        <hr>
+        <aside>
+            <dl>
+                <dt>Titulo</dt>
+                <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos harum odit autem mollitia velit eligendi optio sit neque aut eveniet, inventore nisi, consequatur error sapiente ab in officia qui. Explicabo.</dd>
+                <dt>Titulo</dt>
+                <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos harum odit autem mollitia velit eligendi optio sit neque aut eveniet, inventore nisi, consequatur error sapiente ab in officia qui. Explicabo.</dd>
+                <dt>Titulo</dt>
+                <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos harum odit autem mollitia velit eligendi optio sit neque aut eveniet, inventore nisi, consequatur error sapiente ab in officia qui. Explicabo.</dd>
+            </dl>
+        </aside>
+        <hr>
+        <details>
+            <summary>Listas de cursos Azul School</summary>
+            <p>Curso de Python</p>
+            <p>Curso de C++</p>
+            <p>Curso de SQL</p>
+            <p>Curso de React</p>
+            <p>Curso de Node.js</p>
+        </details>
+        <style>
+            th{
+                background: #000000;
+                color: #ffffff;
+            }
+            th, td{
+                border: solid 1px #828282;
+            }
+            table{
+                width: 400px;
+            }
+        </style>
+        <article>
+            <table>
+                <tr>
+                    <th colspan="3">Todos los cursos</th>
+                </tr>
+                <tr>
+                    <th>Curso</th>
+                    <th>Duración</th>
+                    <th>Nivel</th>
+                </tr>
+                <tr>
+                    <td>Python</td>
+                    <td>10hrs</td>
+                    <td>Medio</td>
+                </tr>
+                <tr>
+                    <td>Python</td>
+                    <td>10hrs</td>
+                    <td>Medio</td>
+                </tr>
+                <tr>
+                    <td>Python</td>
+                    <td>10hrs</td>
+                    <td>Medio</td>
+                </tr>
+                <tr>
+                    <td>Python</td>
+                    <td>10hrs</td>
+                    <td>Medio</td>
+                </tr>
+                <tr>
+                    <td>Python</td>
+                    <td>10hrs</td>
+                    <td>Medio</td>
+                </tr>
+     
+            </table>
+        </article>
+     
     </body>
-</html>
+    </html>
